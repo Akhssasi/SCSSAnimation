@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #110a75;
+  }
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .about-text {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skill {
+    background: #2e0909;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
